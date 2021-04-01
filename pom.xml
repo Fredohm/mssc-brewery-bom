@@ -176,7 +176,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-enforcer-plugin</artifactId>
-                <version>1.4.1</version>
+                <version>3.0.0-M3</version>
                 <executions>
                     <execution>
                         <id>enforce-versions</id>
@@ -185,20 +185,16 @@
                         </goals>
                         <configuration>
                             <rules>
-                                <rule>
-                                    <requireMavenVersion>
-                                        <version>[3.6.0,)</version>
-                                    </requireMavenVersion>
-                                    <requireJavaVersion>
-                                        <version>11</version>
-                                    </requireJavaVersion>
-                                </rule>
-                                <rule>
-                                    <requireReleaseDeps>
-                                        <onlyWhenRelease>true</onlyWhenRelease>
-                                        <message>Release builds must not have on snapshot dependencies</message>
-                                    </requireReleaseDeps>
-                                </rule>
+                                <requireMavenVersion>
+                                    <version>[3.6.0,)</version>
+                                </requireMavenVersion>
+                                <requireJavaVersion>
+                                    <version>11</version>
+                                </requireJavaVersion>
+                                <requireReleaseDeps>
+                                    <onlyWhenRelease>true</onlyWhenRelease>
+                                    <message>Release builds must not have on snapshot dependencies</message>
+                                </requireReleaseDeps>
                             </rules>
                         </configuration>
                     </execution>
