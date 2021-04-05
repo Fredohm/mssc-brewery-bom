@@ -210,4 +210,20 @@
             </plugin>
         </plugins>
     </build>
+
+    <scm>
+        <developerConnection>
+            scm:git:https://github.com/Fredohm/mssc-brewery-bom.git
+        </developerConnection>
+        <tag>fredohm603-mssc-brewery-bom-1.0</tag>
+    </scm>
+
+    <distributionManagement>
+        <repository>
+            <id>internal.repo</id>
+            <name>Internal repo for mssc-brewery-bom</name>
+            <url>file:d:/env/maven/repository/guru/springframework/mssc-brewery-bom</url>
+        </repository>
+    </distributionManagement>
+
 </project>
