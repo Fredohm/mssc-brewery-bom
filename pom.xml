@@ -11,7 +11,7 @@
 
     <groupId>guru.springframework</groupId>
     <artifactId>mssc-brewery-bom</artifactId>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
 
     <packaging>pom</packaging>
 
@@ -214,7 +214,7 @@
         <developerConnection>
             scm:git:https://github.com/Fredohm/mssc-brewery-bom.git
         </developerConnection>
-        <tag>mssc-brewery-bom-1.0</tag>
+        <tag>fredohm603-mssc-brewery-bom-1.0</tag>
     </scm>
 
     <distributionManagement>
